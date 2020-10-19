@@ -10,7 +10,9 @@ If we all contribute a little each, we will have a fantastic compilation of note
 
 ## Usage
 
-To properly access the notes, you need to download Notable and open this directory there. Subject names can be found in "tags" and you can filter/add notes with appropriate tags.
+To properly access the notes, you need to clone the repository and open the directory in [Notable](https://github.com/notable/notable). Subject names can be found in "tags" and you can filter/add notes with appropriate tags.
+
+Images inside notes will not be visible over GitHub but can accessed when seen through Notable.
 
 ## Author
 
