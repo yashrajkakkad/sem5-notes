@@ -1,8 +1,8 @@
 ---
-attachments: [Clipboard_2020-10-20-10-35-12.png]
+attachments: [Clipboard_2020-10-20-10-35-12.png, Clipboard_2020-10-22-10-20-46.png]
 title: Routing
 created: '2020-10-20T04:08:25.883Z'
-modified: '2020-10-20T05:22:43.187Z'
+modified: '2020-10-22T05:28:22.209Z'
 ---
 
 # Routing
@@ -60,6 +60,8 @@ How to deal?
 ### Link State Routing
 - Strategy: Send to all nodes - not just neighbours - the information about directly connected links only.
 
+- Chicken-Egg problem - We don't know the route but we're supposed to send to every route.
+
 - Used in OSPF and IS-IS IGPs
 
 - Link State Packet (LSP)
@@ -93,4 +95,43 @@ How to deal?
 
 ### Open Shortest Path First Protocol (OSPF)
 - Nothing conceptual, understand the tables.
+
+### Routing Metric
+- Hops, queue length [V1]
+- $ f(Depart Time - Arrival Time + Transmission Delay + Propagation Delay) $
+  - Reset depart time upon retransmissions.
+  - Oscillations
+
+### Router Implementation
+- General purpose computer with multiple interface cards
+- DMA for storing and forwarding
+- Limited by the lower of half memory and I/O bandwidth.
+- 133 Mhz 64 bit I/O bus can support peak rate of 4 Gbps.
+- Forwarding cost needs to be considered as well.
+  - Throughput = PPS * Bits/packet
+
+#### Switching Fabric
+- We can abstract a router as a set of input ports, output ports, control unit and switching fabric.
+
+![](@attachment/Clipboard_2020-10-22-10-20-46.png)
+
+#### Head of line blocking
+- Several packets arrive at multiple input ports destined to one output port.
+- Performance bottleneck
+  - Limits the throughput of input buffered switch to 59% of the maximum limit.
+- Solution: Buffer at output ports or at both input and output ports.
+
+#### Crossbar switch
+- N^2 switching elements
+- Each output port needs memory bandwidth equal to the total switch throughput
+
+#### Self routing fabrics
+- Add a self routing header which is used by the switching fabric to forward the packet.
+- Provides scalability.
+
+#### Banyan Network
+- 2x2 crossbars
+- log2N levels
+- If the input is sorted, 
+
 
