@@ -82,7 +82,7 @@ The processor issues an IO command on behalf of a process
   - The inode (index node) is a data structure in a Unix-style file system that describes a file-system object such as a file or a directory.
 
 ## Buffering
-- To avod overheads and inefficiencies, it is sometimes convenient to perform input transfers in advance of requests being made, and to perform output transfers some time after the request is made.
+- To avoid overheads and inefficiencies, it is sometimes convenient to perform input transfers in advance of requests being made, and to perform output transfers some time after the request is made.
 
 - Buffers decouple the process and I/O.
 
