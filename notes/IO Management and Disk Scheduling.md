@@ -103,7 +103,7 @@ The processor issues an IO command on behalf of a process
 ![](@attachment/Clipboard_2020-10-21-19-15-29.png)
 
 - We want to minimize number of I/O requests.
-- Single process deadlock - If a process issues and I/O command, is suspended awaiting the result, and then is swapped out prior to the beginning of the operation, the process is blocked waiting on the I/O event and the I/O operation is blocked waiting for the process to be swapped in.
+- Single process deadlock - If a process issues an I/O command, is suspended awaiting the result, and then is swapped out prior to the beginning of the operation, the process is blocked waiting on the I/O event and the I/O operation is blocked waiting for the process to be swapped in.
 
 ### Single Buffer
 ![](@attachment/Clipboard_2020-10-21-19-21-52.png)
