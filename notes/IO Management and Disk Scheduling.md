@@ -108,7 +108,7 @@ The processor issues an IO command on behalf of a process
 ### Single Buffer
 ![](@attachment/Clipboard_2020-10-21-19-21-52.png)
 - The simplest type of support that the operating system can provide.
-- When a user process issues an IO request, the OS assigns a buffer in the system portion in the system portion of main memory to the operation.
+- When a user process issues an IO request, the OS assigns a buffer in the system portion of main memory to the operation.
 
 - Solves SPD + reduces overheads.
 - Part of Device IO layer.
