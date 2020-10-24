@@ -11,7 +11,7 @@ modified: '2020-10-21T15:03:44.037Z'
 ### Human Readable
 Suitable for communicating with the computer user. Examples include printers and terminals, the latter consisting of video display, keyboard, mouse.
 ### Machine Readable
-Suitable for communicationg with electronic equipment. Examples are disk drivers, USB keys, sensors, controllers and actuators.
+Suitable for communicating with electronic equipment. Examples are disk drivers, USB keys, sensors, controllers and actuators.
 ### Communication
 Suitable for communication with remote devices. Examples are digital line drivers and modems.
 
