@@ -87,7 +87,7 @@ The processor issues an IO command on behalf of a process
 - Buffers decouple the process and I/O.
 
 ### Block oriented device
-- Stores information in blocks that are usually of fixes size
+- Stores information in blocks that are usually of fixed size
 - Transfer one block at a time
 - Possible to reference data by its block number
 - Disks and USB keys are examples.
