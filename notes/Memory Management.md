@@ -24,7 +24,7 @@ In our discussion, we are going to consider multi-user systems.
 
 **Objective:** There should be sufficient number of processes in the memory that memory utilisation is good.
 
-**IBM's OS:** System automatically decided the number of processes in can handle.
+**IBM's OS:** System automatically decides the number of processes it can handle.
 
 ## Requirements
 
