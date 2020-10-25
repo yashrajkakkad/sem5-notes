@@ -82,12 +82,12 @@ The processor issues an IO command on behalf of a process
   - The inode (index node) is a data structure in a Unix-style file system that describes a file-system object such as a file or a directory.
 
 ## Buffering
-- To avod overheads and inefficiencies, it is sometimes convenient to perform input transfers in advance of requests being made, and to perform output transfers some time after the request is made.
+- To avoid overheads and inefficiencies, it is sometimes convenient to perform input transfers in advance of requests being made, and to perform output transfers some time after the request is made.
 
 - Buffers decouple the process and I/O.
 
 ### Block oriented device
-- Stores information in blocks that are usually of fixes size
+- Stores information in blocks that are usually of fixed size
 - Transfer one block at a time
 - Possible to reference data by its block number
 - Disks and USB keys are examples.
@@ -103,12 +103,12 @@ The processor issues an IO command on behalf of a process
 ![](@attachment/Clipboard_2020-10-21-19-15-29.png)
 
 - We want to minimize number of I/O requests.
-- Single process deadlock - If a process issues and I/O command, is suspended awaiting the result, and then is swapped out prior to the beginning of the operation, the process is blocked waiting on the I/O event and the I/O operation is blocked waiting for the process to be swapped in.
+- Single process deadlock - If a process issues an I/O command, is suspended awaiting the result, and then is swapped out prior to the beginning of the operation, the process is blocked waiting on the I/O event and the I/O operation is blocked waiting for the process to be swapped in.
 
 ### Single Buffer
 ![](@attachment/Clipboard_2020-10-21-19-21-52.png)
 - The simplest type of support that the operating system can provide.
-- When a user process issues an IO request, the OS assigns a buffer in the system portion in the system portion of main memory to the operation.
+- When a user process issues an IO request, the OS assigns a buffer in the system portion of main memory to the operation.
 
 - Solves SPD + reduces overheads.
 - Part of Device IO layer.
