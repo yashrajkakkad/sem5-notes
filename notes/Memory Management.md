@@ -44,7 +44,7 @@ In systems like Unix, we do not do it that way. We do not decide the  locations 
 
 In 8086 programming, did we put addresses everywhere? Offsets for different values for data segment were decided by the compiler itself.
 
-At runtime, segment and offset will combine will generate to form a physical address.
+At runtime, segment and offset will combine to form a physical address.
 
 Processes are swapped in and out of memory. Once the program is swapped back, can you guarantee that it will be returned to the same memory address? No.  May need to relocate to a different area of memory.
 
