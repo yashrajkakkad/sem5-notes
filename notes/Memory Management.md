@@ -24,7 +24,7 @@ In our discussion, we are going to consider multi-user systems.
 
 **Objective:** There should be sufficient number of processes in the memory that memory utilisation is good.
 
-**IBM's OS:** System automatically decided the number of processes in can handle.
+**IBM's OS:** System automatically decides the number of processes it can handle.
 
 ## Requirements
 
@@ -44,7 +44,7 @@ In systems like Unix, we do not do it that way. We do not decide the  locations 
 
 In 8086 programming, did we put addresses everywhere? Offsets for different values for data segment were decided by the compiler itself.
 
-At runtime, segment and offset will combine will generate to form a physical address.
+At runtime, segment and offset will combine to form a physical address.
 
 Processes are swapped in and out of memory. Once the program is swapped back, can you guarantee that it will be returned to the same memory address? No.  May need to relocate to a different area of memory.
 
@@ -147,7 +147,7 @@ Both fixed and dynamic partitioning support all the requirements discussed previ
 - Comprised of fixed and dynamic partitioning schemes.
 - Space available for allocation treated as a single block.
 - Memory blocks are available for size $2^K$ words, $L \leq K \leq U$ where
-  - $2^L = $ smallest size block that is allocated
+  - $2^L =$ smallest size block that is allocated
   - $2^U =$ largest size block that is allocated, generally $2^U$ is the size of entire memory available for allocation.
 
   ![](@attachment/Clipboard_2020-10-03-08-24-35.png)

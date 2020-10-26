@@ -21,6 +21,9 @@ Images inside notes will not be visible over GitHub but can accessed when seen t
 * Github: [@yashrajkakkad](https://github.com/yashrajkakkad)
 * LinkedIn: [@yashrajk](https://linkedin.com/in/yashrajk)
 
+## Contributors
+
+Thank you [Jeet Karia](https://github.com/JeetKaria06) for your corrections in the Operating System related notes.
 Once there are ample contrubtions, top contributors will be featured here.
 
 ## Show your support
