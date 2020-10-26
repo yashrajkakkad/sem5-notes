@@ -1,8 +1,9 @@
 ---
 attachments: [Clipboard_2020-10-20-10-35-12.png, Clipboard_2020-10-22-10-20-46.png]
+tags: [computer-networks]
 title: Routing
 created: '2020-10-20T04:08:25.883Z'
-modified: '2020-10-22T05:28:22.209Z'
+modified: '2020-10-26T16:29:12.225Z'
 ---
 
 # Routing

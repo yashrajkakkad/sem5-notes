@@ -1,8 +1,9 @@
 ---
 attachments: [Clipboard_2020-10-05-09-18-31.png, Clipboard_2020-10-05-09-18-32.png, Clipboard_2020-10-05-09-18-33.png, Clipboard_2020-10-05-09-18-35.png, Clipboard_2020-10-10-08-12-58.png, Clipboard_2020-10-10-08-12-59.png, Clipboard_2020-10-10-08-13-01.png, Clipboard_2020-10-10-08-13-03.png, Clipboard_2020-10-10-08-21-02.png, Clipboard_2020-10-10-08-38-35.png, Clipboard_2020-10-12-08-48-57.png]
+tags: [operating-systems]
 title: Virtual Memory
 created: '2020-10-05T02:38:29.681Z'
-modified: '2020-10-17T03:10:54.630Z'
+modified: '2020-10-26T16:29:17.962Z'
 ---
 
 # Virtual Memory

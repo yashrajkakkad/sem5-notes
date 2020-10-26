@@ -1,8 +1,9 @@
 ---
 attachments: [Clipboard_2020-10-08-09-40-44.png, Clipboard_2020-10-08-09-56-04.png, Clipboard_2020-10-08-10-15-29.png, Clipboard_2020-10-08-10-21-12.png, Clipboard_2020-10-08-10-23-59.png, Clipboard_2020-10-08-10-24-04.png, Clipboard_2020-10-08-10-36-43.png, Clipboard_2020-10-13-10-00-34.png, Clipboard_2020-10-13-10-00-37.png, Clipboard_2020-10-13-10-08-25.png, Clipboard_2020-10-13-10-28-49.png, Clipboard_2020-10-13-10-47-51.png, Clipboard_2020-10-15-09-48-13.png, Clipboard_2020-10-15-09-56-12.png, Clipboard_2020-10-15-10-43-40.png]
+tags: [computer-networks]
 title: Internetworking
 created: '2020-10-06T05:20:16.413Z'
-modified: '2020-10-15T05:16:43.675Z'
+modified: '2020-10-26T16:29:04.419Z'
 ---
 
 # Internetworking
