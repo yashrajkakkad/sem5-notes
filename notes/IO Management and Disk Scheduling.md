@@ -3,7 +3,7 @@ attachments: [Clipboard_2020-10-19-08-36-22.png, Clipboard_2020-10-19-09-06-02.p
 tags: [operating-systems]
 title: IO Management and Disk Scheduling
 created: '2020-10-19T02:43:17.677Z'
-modified: '2020-10-21T15:03:44.037Z'
+modified: '2020-10-24T03:56:43.805Z'
 ---
 
 # IO Management and Disk Scheduling
@@ -140,4 +140,31 @@ Seek Time - Time taken to reach desired portion in the track.
 ## Disk Scheduling Algorithms
 ![](@attachment/Clipboard_2020-10-21-20-33-43.png)
 
+### FIFO
+### SSTF
+- Choose the process with the shortest distance
+### SCAN
+- Also known as elevator algorithm.
+- Arm moves in one direction only.
+  - Satisfied all outstanding requests until it reaches the last track in that direction then the direction is reversed.
+- Favors jobs whose requests are for tracks nearest to both innermost and outermost tracks and favours the latest arriving jobs.
+
+### C-SCAN
+- Restricts scanning to one direction only.
+- When the last track has been visited in one direction, the arm is returned to the opposite end of the disk and the scan begins again.
+
+### FSCAN
+- Uses two subqueues.
+- When a scan begins, all of the requests are in one of the queues, with the other empty.
+- During scan, all new reqeusts are put into the other queue.
+- Service of the new reqeusts is deferred until all of the old requests have been processed. 
+
+## RAID
+- Redundant Array of Independent Disks
+- Consists of seven levels, zero through six.
+
+- Doesn't provide reliability.
+
+## Cache
+- LRU, LFU
 
