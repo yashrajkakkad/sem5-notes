@@ -21,7 +21,7 @@ Virtual address space should be larger than physical space, otherwise there's no
 
 ## Hardware and Control Structures
 - Two characteristics fundamental to memory management:
-  - All memory references are logical addresses that are dynamically translated into physucal addresses at run time.
+  - All memory references are logical addresses that are dynamically translated into physical addresses at run time.
   - A process may be broken up into a number of pieces that don't need to be contiguously located in main memory during execution.
 
 - If these two 
