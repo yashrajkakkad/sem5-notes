@@ -68,7 +68,7 @@ Virtual address space should be larger than physical space, otherwise there's no
 - The term virtual memory is usually associated with systems that employ paging.
 - Use of paging to achieve virtual memory was first reported for the Atlas computer.
 - Each process has its own page table
-  - Each page table entry (PTE) contains te frame nuumber
+  - Each page table entry (PTE) contains the frame nuumber
 - Flags
   - P flag - Present flag
   - M flag - Modified flag - Write into secondary storage
